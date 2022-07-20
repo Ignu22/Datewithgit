@@ -7,14 +7,6 @@ class Main{
         for(int i=0;i<=a;i++){
             arr[i]=sc.nextInt();
         }
-        for(int i=0;i<arr.length;i++){
-            for(int j=i+1;j<arr.length;j++){
-                if(arr[i]==arr[j]){
-                    System.out.print("true");
-                }else{
-                    System.out.print("false");
-                }
-            }
-        }
+        System.out.println(arr);
     }
 }
